@@ -6,23 +6,13 @@ body , html{
 }
 
 body{
-    background: url(../images/bg.jpg) repeat center center fixed;
+    background: url(../images/wp7632923.jpg) repeat center center fixed;
     background-size: cover;
 }
 
 main{
     position: relative;
 }
-
-#vanta{
-    z-index: 0;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-}
-
 
 header {
     margin-top: 2em;
