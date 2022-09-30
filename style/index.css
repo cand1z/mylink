@@ -75,7 +75,7 @@ a {
     text-decoration: none;
 }
 
-li.testeli {
+.blur_button {
     opacity: 0;
     filter: blur(10px);
     transition: opacity 2s ease-in-out, filter 2s ease-in-out;
