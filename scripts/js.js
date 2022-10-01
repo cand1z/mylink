@@ -1,6 +1,6 @@
 setTimeout(() => {
-    const element = document.getElementById("blur")
+    const element = document.querySelector("ul")
+    const elements = element.querySelectorAll("li")
     element.style.opacity = 1
-    element.style.filter = "blur(0px)"
-
 }, 1000)
+
