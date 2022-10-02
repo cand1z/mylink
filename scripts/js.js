@@ -1,6 +1,5 @@
 setTimeout(() => {
     const element = document.querySelectorAll("li")
-    console.log("elements", element.length)
     for (let i = 0; i < element.length; i++){
         element[i].style.opacity = 1
         element[i].style.filter = "blur(0px)"
@@ -8,3 +7,8 @@ setTimeout(() => {
     }
 }, 1000)
 
+setTimeout(() => {
+    const element = document.querySelector("header")
+    element.style.opacity = 1
+    element.style.filter = "blur(0px)"
+}, 10)
