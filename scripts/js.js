@@ -12,3 +12,11 @@ setTimeout(() => {
     element.style.opacity = 1
     element.style.filter = "blur(0px)"
 }, 10)
+
+
+setTimeout(() => {
+    const element = document.getElementsByClassName("card")
+    for (let i = 0; i < element.length; i++){
+        element[i].style.opacity = 1
+    }
+}, 10)
