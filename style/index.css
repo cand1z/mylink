@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
 
-body{
+body {
     padding: 0;
     margin: 0;
     font-family: 'Chakra Petch', sans-serif;
@@ -15,13 +15,13 @@ body::before {
     inset: 0;
     z-index: -1;
     pointer-events: none;
-    background: url("../images/bg.jpg") no-repeat center;
+    background: url('../images/bg.jpg') no-repeat center;
     background-size: cover;
     animation: backgroundZoomAnimate 20s forwards;
 }
 
 @keyframes backgroundZoomAnimate {
-    from{
+    from {
         transform: scale(1);
     }
     to {
@@ -29,11 +29,9 @@ body::before {
     }
 }
 
-
-main{
+main {
     position: relative;
 }
-
 
 header {
     margin-top: 2em;
