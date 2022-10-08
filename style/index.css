@@ -4,7 +4,7 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'Chakra Petch', sans-serif;
-    color: #fff;
+    color: rgb(255, 255, 255);
     padding: 2rem;
     display: flex;
     justify-content: center;
@@ -46,13 +46,13 @@ header > img {
     width: 10em;
     height: 10em;
     border-radius: 100%;
-    border: 1px solid #fff;
-    box-shadow: black 0px 0px 14px 1px;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: rgb(0, 0, 0) 0px 0px 14px 1px;
 }
 
 header > h1 {
     display: inline-block;
-    color: #000;
+    color: rgb(0, 0, 0);
     border-radius: 1em;
     font-size: 1.3em;
     font-weight: bold;
@@ -68,12 +68,12 @@ ul {
 }
 
 ul > li {
-    background: #fff0;
+    background: rgb(255, 255, 255, 0);
     border-radius: 2em;
     padding: 0.2em;
     margin: 2.5em 1.5em;
     backdrop-filter: blur(5px) saturate(110%) contrast(100%);
-    box-shadow: black 0px 0px 14px 1px;
+    box-shadow: rgb(0, 0, 0) 0px 0px 14px 1px;
 }
 
 ul > li > a {
@@ -82,12 +82,12 @@ ul > li > a {
     justify-content: center;
     align-items: center;
     gap: 0.5em;
-    color: #000;
+    color: rgb(0, 0, 0);
     padding: 0.5em;
 }
 
 a {
-    color: black;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
@@ -105,12 +105,12 @@ a {
 
 .card {
     opacity: 0;
-    box-shadow: black 0 18px 200px 060px;
+    box-shadow: rgb(0, 0, 0) 0 18px 200px 060px;
     border-radius: 50px;
     width: 650px;
     position: relative;
     backdrop-filter: blur(15px);
-    border: 2px solid #ffffff40;
+    border: 2px solid rgba(255, 255, 255, 0.251);
     padding: 3rem 5rem;
     transition: opacity 2s ease-in-out;
 }
